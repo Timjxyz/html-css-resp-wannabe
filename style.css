@@ -74,7 +74,59 @@
   
 
   /* Regole media query */
+
+  @media  (min-width: 421px) and (max-width: 767px){
+    * {
+      padding: 0;
+      margin:0;
+      box-sizing: border-box;
+    }
+
+    #lezioni .row>.left,
+    #lezioni .row>.right{
+        float: none;
+        margin: auto;
+        width: 100%;
+    }
+
+    .row{
+        background-color:#1571db;
+        width: 100%;
+        padding-top: 20px;
+        margin-top: 0;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third{
+    margin-top: 20px;
+  } 
+
+  #why .row>.third{
+    padding-bottom: 15px;
+  }
+
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        width: 100%;
+        float: none;
+        margin: auto;
+        
+    }
+
+    #steps .row{
+        background-color: rgb(240, 10, 144);
+        width: 100%;
+    }
+  }
   @media  (max-width: 420px){
+    * {
+      padding: 0;
+      margin:0;
+      box-sizing: border-box;
+    }
 
     #lezioni .row>.left,
     #lezioni .row>.right{
@@ -86,7 +138,19 @@
     .row{
         background-color:#f2f2cd;
         width: 100%;
+        padding-top: 20px;
+        margin-top: 0;
     }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third{
+    margin-top: 20px;
+  } 
+
+  #why .row>.third{
+    padding-bottom: 15px;
+  }
 
 
     #steps .row>.left,
@@ -118,7 +182,7 @@
     
   }
 
-  @media  (min-width: 768px) and (max-width: 900px)  {
+  @media  (min-width: 768px) and (max-width: 1200px)  {
 
     #lezioni .row>.left,
     #lezioni .row>.right{
